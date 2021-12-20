@@ -1,3 +1,29 @@
+<?php 
+$questions = [
+    [
+        'title' => '',
+        'paragraf' => ''
+    ],
+    [
+        'title' => '',
+        'paragraf' => ''
+    ],
+    [
+        'title' => '',
+        'paragraf' => ''
+    ],
+    [
+        'title' => '',
+        'paragraf' => ''
+    ],
+    [
+        'title' => '',
+        'paragraf' => ''
+    ],
+]
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
