@@ -40,13 +40,20 @@ $questions = [
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <div class="img-box">
+            <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="Google">
+        </div>
+    </nav>
     <div class='container'>
         <?php
            for($i = 0; $i < count($questions);$i++) : ?>
-              <h3><?php echo $questions[$i]['domanda'] ?></h3>
-              <p><?php echo $questions[$i]['paragraf-1'] ?></p>
-              <p><?php echo $questions[$i]['paragraf-2'] ?></p>
-              <p><?php echo $questions[$i]['paragraf-3'] ?></p> 
+              <div class='contain'>
+                <h2><?php echo $questions[$i]['domanda'] ?></h2>
+                <p><?php echo $questions[$i]['paragraf-1'] ?></p>
+                <p><?php echo $questions[$i]['paragraf-2'] ?></p>
+                <p><?php echo $questions[$i]['paragraf-3'] ?></p> 
+              </div>
         <?php endfor; ?>   
     </div>
 </body>
